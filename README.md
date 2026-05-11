@@ -1,0 +1,2 @@
+# FP
+funkcionalno programiranje matf
