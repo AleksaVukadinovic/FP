@@ -1,0 +1,19 @@
+zadaci:
+1. Definisati tip Prozor, identifikator(int), naziv (string), sadrzaj (a). Mkprozor, gettere.
+ Ord nad Prozor za poredjenje na osnovu identifikatora, funktor i monadu
+
+2. U fajlovima datim kao argument komandne linije ispisati najduzu rec u svakom redu (vise fajlova)
+3. Minesweeper tabla kao matrica polja, polje moze imati vrednost bomba, broj, nista. Definisati tipove tabla i polje
+
+4. Range3 dat je string i ako je parno/neparno i slovo onda veliko/malo 
+a ako je parno/neparno i broj +1 ciklicno (9+1 =0), - 1 ako je na neparnom mestu
+
+Parno/neparno mesto u stringu
+
+
+teorija:
+1. Funktori
+2. BVT
+3. Prostorna i memorijska slozenost za liste ja msm
+4. Generacijski garbage kolektor ja msm
+5. Parcijalna aplikacija funkcije u c++ i haskell-u

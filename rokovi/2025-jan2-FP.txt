@@ -1,0 +1,31 @@
+FP Jan2
+
+Zadaci
+
+1. Napraviti tip aritmeticki izraz koji moze biti varijabla, konstanta, mnozenje i sabiranje. Instancirati 
+funktor tako da primeni fmap f na konstante. Napisati funkciju eval koja dobije listu ("varname", vrednost) i 
+izraz i evaluira za date vrednosti, ako neka var nema vrednost podrazumevati 1.
+
+2. Ucitava se proizvoljan broj fajlova kao argumenti komandne linije i racuna se prosek brojeva u svakom fajlu
+
+3. Napraviti tip survey koji ima ime i odgovore, odgovor moze biti binarni (da/ne), multichoice i slobodan tekst, moze i da nema odgovor
+
+
+Teorija:
+1. Sta je tip/tipska klasa, daj primer
+2. Kada su funkcije polimorfne i daj primer
+3. Napisi funkciju koja sve parne elemente liste kvadrira (npr. [1, 2, 3] daje [4]).
+4. Napisi funkciju koja racuna medijanu
+5. Napisi funkciju koja racuna zbir cifara broja
+6. Koje vrednosti moze da uzima Maybe (Maybe Bool)
+7. Sta predstavlja fmap, kog je tipa i sta ce biti izlaz
+8. Da se ispisu inicijali imena i prezimena
+
+
+
+
+
+
+
+
+

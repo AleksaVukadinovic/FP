@@ -1,0 +1,15 @@
+**FP Jun 2 - prakticni**
+1 - Binarno stablo pretrage sa pomocnim funkcijama (addToTree, toList, fromList, treeMap, custom show...). Bilo je i pitanje da li 
+mogu da se testiraju fromList i toList koristeci quickcheck i da li moze da se instancira Functor
+2 - Program uzima nekoliko argumenata (imena fajlova) i treba da otvori te fajlove i uzme sve redove i da ih sortira 
+zajedno i ispise (cat + sort). Ukoliko nema argumenata treba da cita linije sa std ulaza
+3 - Da se definise neka struktura za prognozu, bukvalno nema koda i logike, samo jedna debela data struktura
+4 - Treba izracunati odredjeni integral, data je funkcija, leva i desna granica kao i broj podeoka na koji treba da se 
+podeli. Podeliti interval na toliko jednakih podeoka i izracunati vrednost funkcije u sredinama podeoka. Sabrati te vrednosti i vratiti dx * rezultat gde je dx duzina jednog podeoka
+
+**FP Jun 2 - teorija**
+1 - Objasniti kako se radi ubacivanje u BVT i zasto je slozenost O(1)
+2 - Sta su monade i da se isprica o IO monadi, i neki primeri sem IO
+3 - Dat je .hs fajl i treba napisati implementaciju Kleisli 🐟 operatora (>=>) koristeci >>=
+4 - Linearni tipovi sta su i koje su prednosti
+5 - Parcijalna aplikacija vs Karijevanje

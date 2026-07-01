@@ -1,0 +1,32 @@
+1. Generisanje paskalovog trougla
+
+2. Kao argument komandne linije zadaje se putanja do fajla i broj k 
+treba da ispises linije u kojima se nalazi bar jedna rec koja je duzina vece od k
+
+3. Treba napraviti klasu Filterable f i 2 funkcije
+filterBy f :: (a -> Bool) -> f a -> f a
+showIf f :: (Show a) => (a -> Bool) -> f a -> String
+Treba da se instancira za listu, Maybe i Either
+
+4. Napisati fju u C++ koja generiše vektor prvih n trougaonih brojeva koristeći ranges v3 (na wiki: triangular number)
+
+
+Teorija:
+
+1.
+Da nagadjas potpis (npr f::Int->[a]) 3 funkcije iz haskella I za cpp:
+nesto sa tipovima
+<type T, type I = value_type(T), type CP = const I&>
+I func(T) { }
+
+Koji je povratni tip od poziva func(vector<string>{"sta god"})
+
+2. Koja je slozenost dodavanja elementa na kraj liste. Objasniti.
+
+3. Nesto sa garbage collectorom. Kopirajuci gc valjda
+
+4. Dve osnovne operacije u lensu 
+
+5. Lens Algebarski tipovi
+
+6. Šta je I cemu sluzi stack (onaj program za instaliranje GHC-a I paketa)

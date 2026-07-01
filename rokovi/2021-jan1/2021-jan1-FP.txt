@@ -1,0 +1,4 @@
+1. Imena fajlova se daju kao argumenti komandne linije i učitava se reč sa stdin-a. Prebrojati pojavljivanje te reči u fajlovima.
+2. Napraviti klasu Takeable t sa funkcijom takeSome :: Int -> t a -> [a]. Instancirati za listu, stablo i Maybe.
+3. Definisati binarno stablo i instancirati Eq, Show (infiksni zapis) i Functor.
+4. (cpp ranges) Tad je string tipa "aaabbb". Kompresovati ga u "3a3b".

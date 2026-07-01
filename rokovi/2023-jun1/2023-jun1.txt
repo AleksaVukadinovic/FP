@@ -1,0 +1,94 @@
+*********zadaci*****
+
+1)(nisam citala ceo zadatak): Da se napravi tip podataka koji prihvata parametarski tip a, i sadrzi u sebi listu elemenata tipa a zajedno sa verovatnocama pridruzeni tom elemntu, pri cemu suma svih verovatnoca ne prelazi 1
+instancirati Functor nad tip tipom
+instancirati Aplicative nad tim tipom
+instancirati Monadu nad tim tipom
+napisati funkciju koja ce vrsiti "sabijanje" ovog tipa (??)
+(i jos neke stari treba definisati)
+napisati funkciju koja ugnjezdeni ProbList spaja u jedan ProbList (nalik flatten-u za liste), pritom osigurati da zbirna verovatnoca ostane 1 (ovo je pre instanciranja monade - posle se ova funkcija lako moze iskoristiti za to)
+
+flattenProbList :: ProbList (ProbList a) -> ProbList a
+
+(Za ovu funkciju sto vrsi spajanje verovatnoca):
+Implementirati funckiju koja sve elemente liste verovatnoca spaja u jedan element, pritom osigurati da zbirna verovatnoca ostane 1
+
+groupProbabilities :: Eq a => ProbList a -> ProbList a 
+Implementirati tip Coin koji predstavlja dva moguca stanja pri njegovom bacanju (pismo glava)
+Implementirati funkciju koja generise listu verovatnoca pri bacanju novcica
+
+flipCoin :: ProbList Coin
+I na kraju, implementirati funkciju koja simulira bacanje tri novcica, eventualno upotrebom do notacije (ne secam se sta je konkretno potrebno da ova funkcija uradi - valjda da generise odgovarajuci ProbList Coin
+
+
+
+2)Treba napraviti klasu R, koja u sebi sadrzi funkviju rev:: a -> a
+instancirati tu klasu nad listama, tako da funkcija rev obrce listu (npr rev [1,2,3] -> [3,2,1])
+instancirati tu klasu nad Integer, tako da funkcija rev obrce broj (npr rev -123 -> -321)
+instancirati tu klasu nad parom(tuple), pri cemu oba elemnta tog para moraju biti u klasi R, tako da funkcija rev obrce elemente tog para (npr rev (123, "neki")-> (321, "iken"))
+
+napisati test za quickCheck za funkciju rev koja radi nad listama
+(pri cemu znamo da dva puta primenjena funkcija rev nad listama daje identitet)
+dodatno pitanje: da li se mogu napisati i test funkcije za rev koje radi nad ostalim elementima iz klase R
+(odgovor: ne, jer ako primenimo rev (rev 100) -> rev (001) -> 1 sto nije jednako polaznom elementu)
+
+
+
+3) kao prvi argument komandne linije se dobije ime fajla, kao drugi argument dobijamo rec
+Treba ispisati sve redne brojeve linija u kojim se nalaze anagrami reci koja je proslednjena kao drugi argument
+Ne pravi se razlika izmedju velikih i malih slova
+npr za rec cat
+i tekst:
+	neki tekst Cat
+	koji se ne tac secam
+	kako ide bas najbolje
+	ali treba da se nadje act
+	da bi mogao zad da se uradi
+treba vratiti redne brojeve linija, svaki broj u novom redu, rezultat:
+1
+2
+4
+
+4)(C++) dat je string koji se sastoji samo od slova a i b,
+treba odrediti broj minimalnih promena tog stringa tako da nema tri uzastopno ista slova
+npr za string aaabb, posto ima tri slova a, da bi promena bila minimalna treba zameniti samo jedno slovo a u b.
+npr za string aaaabb, posto ima cetiri slova a, da bi promena bila minimalna treba zameniti samo jedno slovo a i to neko od ova dva u sredini, i na taj nacin cemo dobiti da nema tri uzastopna ista slova
+
+
+
+
+****teorija*****
+1 a) Ako su zadati operatori u Haskellu koji su definisani na sledeci nacin
+operatori su levo asocijativni
+
+(>>=) [Int]-> [Int] -> [Int]
+(<<=) a -> a -> String
+
+odrediti tipove sledecih funkcija tj. zameniti ???  sa ispravnim resenjem
+f::??  
+f x y z = x >>= (x >>= y)
+
+g::??
+g x = x >>= x <<= x
+
+h::??
+h x y z = x >>= (y <<= z)
+
+
+1 b) isto odrediti povratni tip funkcije, ako je poziv funkcije i(std::vector<std::string>>)
+
+template <typename T, typename I = T::value_type, CS = const &I>
+std::set<T*> i(T){
+
+}
+
+----------------
+2)sta znaci parcijalna aplikacija funkcije i navesti primer i u C++ i u Haskellu za parcijalnu aplikaciju funkcije
+----------------
+3) Sta su linearni tipovi i kako oni pomazu u programskim jezicima koji koriste sakupljace otpadaka
+----------------
+4) Sta su suma tipovi, objasniti i dati primer u kom su linearni tipovi korisniji od proizvod tipova
+----------------
+5) kako se dodaje element na kraj u BVT, i objasniti zasto slozenost dodavanja na kraj mozemo smatrati da je O(1)
+----------------
+6) da definisemo nasu funkciju myFmap koji ce da radi nad monadama, tako sto cemo koristiti operatore koji su definisani u klasi Monad(tj koristimo >>=, return, join)

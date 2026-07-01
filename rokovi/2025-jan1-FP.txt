@@ -1,0 +1,28 @@
+FP JAN1
+
+Prvi je bio kao definisi tip Box koji moze biti prazan ili neprazan kada je neprazan ima vrednost i neki string 
+Instancirati Show tako da ukoliko nije prazan prikaze vrednost u suprotnom ispisuje </> 
+Instancirati Functor i Applicative(pure i bind ja msm)
+
+Drugi je bio nesto implementirati nesto slicno wc komandi koja prima dva argumenta gde je prvi argument 
+ime fajla a drugi neka od opcija -l,-m,-w i -L i onda svaka od njih nesto radi
+
+Treci je bio da definises strukturu Task gde on moze biti prost ili slozen
+Prost se sastoji od imena,trajanja i jos necega slozeni isto to samo sto moze imati vise taskova
+
+Teorija:
+Da napises izraz koji racuna zapreminu u haskellu koristeci where i let in
+
+Da napises rekurzivnu funkciju zip' koja ne koristi zip
+
+Sta predstavljaju tipske klase Ord Eq i Show
+
+Rekurzivna funkcija za quicksort koja koristi postojecu quicksort funkciju
+
+Rekurzivna funkcija za proveru da li je rec palindrom 
+
+Da li mogu biti razliciti tipovi u listi i n-torki, sta predstavlja fst a sta snd u n-torci, navesti primer
+
+Koje sve vrednosti moze da uzima tip Maybe Bool
+
+Imalo je jos jedno pitanje ali se ne secam, svako pitanje nosilo je po 5 bodova

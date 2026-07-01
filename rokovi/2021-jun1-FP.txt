@@ -1,0 +1,18 @@
+[FP] Jun1
+
+Teorija:
+1. a) Napisati potpise nekih fja u haskellu.
+1. b) Zakljuciti koji tip ce imati povratna vrednost neke sablonske fje. Samo ::value_type da se protumaci.
+2. Sta su algebarski tipovi?
+3. Opisati kopirajuci GC.
+4. Sta je metagraf?
+5. Opisati ulogu stack sistema.
+
+Zadaci:
+1. podatak Strudent sadrzi id,ime,..., instancirati show za student, class Hashable sa fjom hash - koja show student pretvara u Int:
+s[0]^31*(n-1) + s[1]^31*(n-2) ... + s[n]^31, data Heashtable - mapa koja sadrzi kljuc hash studenta i vrednost student. Implementacija nekih fja.
+2. Iz fajla dat kao arg se cita niska "ababbabababbbbaba". Izracunati koliko najmanje slova treba da se promeni da ne postoje 3 uzastopna ista znaka.
+3. Definisati model ruka sadrzi karte. Karta se sastoji od:
+Znak - pik, herc, tref, karo i Vrednost - brojevi od 1 do 14.
+Instancirati Show za Kartu - [4.pik]. instancirati za Kartu i Ruku Eq ako moze, ako ne zasto ne. Ord ako moze, ako ne zasto ne. Napisati neku test fju za Ruku.
+4. C++ - Definisati tip (ne secam se).

@@ -1,0 +1,42 @@
+FP SEP2
+
+Teorija
+
+1. dodavanje elementa na kraj u BVT, sto je generalno slozenost O(1).
+2. vremeneska i prostorna slozenost u haskellu za dodavanje elementa na pocetak i kraj liste.
+3. karijevanje, sta je, primeri u cpp i haskellu.
+4. razlike izmedju suma i proizvod tipa. primeri. (nije naglaseno da li samo za haskell ili i za cpp)
+5. zadatak: definisati myFmap bez fmap (valjda preko bind, join i return, i valjda i funktor i monadu nesto).
+
+Zadaci
+
+1. Napisati tip Stream a koji ce primati beskonacno elemenata tipa a. (Poenta je bila Stream a = Stream [a]? ali su mega
+cudno napisali sa ovim beskonacno elemenata). Napisati i fromList:: [a] -> Stream a, kao i toList:: Stream a -> [a].
+Napisati i Show tako da ako gledamo da je ovo lista [1..100], da ispisuje samo prvih 10 el, tj [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ..].
+Instancirati Funktor i Applicative.
+
+2. Dato 
+
+main :: IO()
+main = undefined
+
+i u komentarima 1.txt 2.txt sa nekim recima u njima.
+
+Uraditi tako da ucitavamo reci iz vise fajlova (./Main 1.txt 2.txt) i da pronadjemo najkracu i najduzu rec od svih reci iz 
+svih fajlova. Ispisati: 
+min: najkraca_rec 
+max: najduza_rec
+
+3. Napraviti tip CryptoCurrency koja ce da sadrzi vrednost te valute izrazeno u USD, kao i koliko se povecala/smanjila cena
+u poslednjih 24h izrazeno u procentima.
+Napraviti tip CryptoWallet koja ce da cuva te CryptoCurrency, kolicinu koju korisnik ima, kao i kad je poslednje put
+menjao/kupio/koristio taj currency.
+
+4. cpp zadatak
+
+Funckija dobija vektor sa 0 i 1 sto predstavlja binarnu vrednost nekog broja. Napisati tu funkciju tako da vraca dekadnu 
+vrednost broja. (hint: 1 << 3, je isto sto i 2^3 :) )
+
+
+
+

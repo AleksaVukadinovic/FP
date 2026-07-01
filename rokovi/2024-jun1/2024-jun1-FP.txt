@@ -1,0 +1,19 @@
+1. Napraviti tip podataka ZList a koji prima listu kao argument, napraviti konstruktor pod istim imenom i napraviti getList koji dohvata tu listu.
+ - instancirati za show tako da ispis bude ZList [1..5] = [<1, 2, 3, 4, 5>]
+ - instancirati Funktor
+ - instancirati Aplikativ
+ - ako moze instancirati Monadu, ako ne, obrazloziti
+  (slicna fora kao Set)
+	
+2. Prima se argument, za dati argument komande linije ucitati fajl i parsirati izraz, npr. "4 3 2 * +" = (3 + 2) *4  = 20, mogu biti i visecifreni brojevi.
+
+3. Napraviti klasu Concatenatable t koja ima fju concatenate :: t -> t -> t. Instancirati ovu klasu za liste, integere (pisati Integer a ne Int) (3 concatenate 2 = 32), uredjene parove ( (1, 2) concatenate (3, 4) = (13, 24)) i za Maybe
+
+4. U cpp-u napisati fju to_camel koja prima string u snake notaciji i vraca u camel notaciji (foo_bar = fooBar, foo_bar_wow = fooBarWow). I ukoliko zatreba, radi isto nad listom stringova.
+
+Teorija
+1. Sta su funktori i zakoni
+2. Sta su algebarski tipovi (cpp i haskell primeri)
+3. Napisati fmap koriscenjem join, bind i return
+4. Koja je slozenost (u Haskellu) dodavanja stavke na kraj liste
+5. Sta je Haskell Stack i cemu sluzi
